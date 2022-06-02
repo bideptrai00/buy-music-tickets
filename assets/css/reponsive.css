@@ -1,0 +1,107 @@
+/* PC */
+@media (min-width:1024px){
+    #mobile-menu {
+        display: none;
+    }
+}
+
+@media (max-width:1023px){
+    .btn{
+        padding: 16px 21px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    .social-list{
+        font-size: 48px;
+    }
+    .social-list a{
+        margin: 0 8px;
+    }
+}
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px){
+    #mobile-menu {
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width:740px){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    
+    .s-mt-16{
+        margin-top: 16px !important;
+    }
+    
+    #header{
+        overflow: hidden;
+    }
+
+    #navi {
+        display: block;
+    }
+
+    #navi > li{
+        display: block;
+    }
+
+    #navi > li:first-child {
+        display: inline-block;
+    }   
+
+    #navi .subnavi{
+        position: initial;
+        background-color: #333;
+           
+    }
+    #navi li:hover .subnavi{
+        display: none;
+    }
+
+    #navi li:hover .subnavi.open{
+        display: block;
+    }
+
+    #navi .subnavi li a{
+        color: blanchedalmond;
+        padding: 0 41px;
+        line-height: 48px;
+    }
+
+
+    #header .search-btn{
+        display: none;
+    }
+    #mobile-menu{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #content .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+
+    #tour .ticket-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #contact .contact-form{
+        margin-top: 16px;
+    }
+
+    
+}
